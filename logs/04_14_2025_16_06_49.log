@@ -1,0 +1,15 @@
+[ 2025-04-14 16:06:50,124 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-14 16:06:50,140 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-14 16:06:57,776 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:06:57] "GET / HTTP/1.1" 200 -
+[ 2025-04-14 16:06:57,832 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:06:57] "[33mGET /static/images/cricket-ball.svg HTTP/1.1[0m" 404 -
+[ 2025-04-14 16:06:57,838 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:06:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+[ 2025-04-14 16:06:58,275 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:06:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-14 16:06:58,291 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:06:58] "[33mGET /images/stadium-silhouette.svg HTTP/1.1[0m" 404 -
+[ 2025-04-14 16:06:58,350 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:06:58] "[33mGET /static/images/favicon.png HTTP/1.1[0m" 404 -
+[ 2025-04-14 16:08:47,242 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:08:47] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-14 16:08:47,275 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:08:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-14 16:08:47,275 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:08:47] "[33mGET /static/images/cricket-ball.svg HTTP/1.1[0m" 404 -
+[ 2025-04-14 16:08:47,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:08:47] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+[ 2025-04-14 16:08:47,291 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 16:08:47] "[33mGET /images/stadium-silhouette.svg HTTP/1.1[0m" 404 -
+[ 2025-04-15 06:38:15,652 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading
+[ 2025-04-15 06:38:15,654 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading

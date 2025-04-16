@@ -1,0 +1,8 @@
+[ 2025-04-16 04:20:32,973 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 04:20:32,973 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 04:20:35,945 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:20:35] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 04:20:39,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:20:39] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 04:21:01,617 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:21:01] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 04:21:01,892 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:21:01] "GET /static/toss_decision_outcome_pie_chart.png HTTP/1.1" 200 -
+[ 2025-04-16 04:23:55,452 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:23:55] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 04:23:55,493 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:23:55] "GET /static/toss_decision_outcome_pie_chart.png HTTP/1.1" 200 -

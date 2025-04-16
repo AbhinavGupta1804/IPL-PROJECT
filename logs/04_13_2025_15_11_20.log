@@ -1,0 +1,9 @@
+[ 2025-04-13 15:11:21,164 ] 28 __main__ - INFO - Entered the data ingestion method or component
+[ 2025-04-13 15:11:21,475 ] 32 __main__ - INFO - Read the dataset as dataframe
+[ 2025-04-13 15:11:22,241 ] 41 __main__ - INFO - Data ingestion completed successfully.
+[ 2025-04-13 15:11:22,257 ] 26 src.components.data_transformation - INFO - Reading input CSV files
+[ 2025-04-13 15:11:22,553 ] 30 src.components.data_transformation - INFO - Starting data transformation process
+[ 2025-04-13 15:11:23,790 ] 100 src.components.data_transformation - INFO - Data transformation completed successfully
+[ 2025-04-13 15:11:23,813 ] 101 src.components.data_transformation - INFO - X_train shape: (83839, 79), X_test shape: (20960, 79)
+[ 2025-04-13 15:11:23,813 ] 29 src.components.model_trainer - INFO - Starting model training process...
+[ 2025-04-13 15:11:28,241 ] 84 src.components.model_trainer - ERROR - Exception occurred during model training.

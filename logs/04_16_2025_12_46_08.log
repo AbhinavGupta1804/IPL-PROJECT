@@ -1,0 +1,16 @@
+[ 2025-04-16 12:46:10,175 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 12:46:10,175 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 12:46:10,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:10] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 12:46:10,243 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:10] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 12:46:10,473 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:46:10,473 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:46:39,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:39] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 12:46:39,900 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:46:39,903 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:46:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:49:56,164 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:49:56] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 12:49:56,195 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:49:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:49:56,198 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:49:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:50:03,004 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:50:03] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 12:50:03,023 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:50:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:50:03,025 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:50:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:54:20,520 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\pyparsing\\core.py', reloading

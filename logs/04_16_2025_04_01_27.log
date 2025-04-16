@@ -1,0 +1,17 @@
+[ 2025-04-16 04:01:28,440 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 04:01:28,448 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 04:01:35,246 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:01:35] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 04:02:16,937 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 04:02:17,310 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:17,311 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:17,376 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:17] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=8YqWv4QCqwyEkJhXIcjP HTTP/1.1" 200 -
+[ 2025-04-16 04:02:17,404 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:27,121 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 04:02:27,139 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:27] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:27,142 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:27] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:27,172 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:27] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=8YqWv4QCqwyEkJhXIcjP HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:35,107 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 04:02:35,159 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:35,161 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:02:35,179 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:02:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=8YqWv4QCqwyEkJhXIcjP HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:06:18,478 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading

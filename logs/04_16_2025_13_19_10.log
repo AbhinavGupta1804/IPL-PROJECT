@@ -1,0 +1,3 @@
+[ 2025-04-16 13:19:11,683 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:19:11,683 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 13:22:08,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading

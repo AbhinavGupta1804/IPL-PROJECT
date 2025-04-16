@@ -1,0 +1,13 @@
+[ 2025-04-13 15:26:02,298 ] 28 __main__ - INFO - Entered the data ingestion method or component
+[ 2025-04-13 15:26:02,675 ] 32 __main__ - INFO - Read the dataset as dataframe
+[ 2025-04-13 15:26:03,567 ] 41 __main__ - INFO - Data ingestion completed successfully.
+[ 2025-04-13 15:26:03,567 ] 26 src.components.data_transformation - INFO - Reading input CSV files
+[ 2025-04-13 15:26:03,865 ] 30 src.components.data_transformation - INFO - Starting data transformation process
+[ 2025-04-13 15:26:05,030 ] 100 src.components.data_transformation - INFO - Data transformation completed successfully
+[ 2025-04-13 15:26:05,051 ] 101 src.components.data_transformation - INFO - X_train shape: (83839, 12), X_test shape: (20960, 12)
+[ 2025-04-13 15:26:05,058 ] 29 src.components.model_trainer - INFO - Starting model training process...
+[ 2025-04-13 15:26:05,058 ] 49 src.components.model_trainer - INFO - Voting classifier created.
+[ 2025-04-13 15:26:05,058 ] 62 src.components.model_trainer - INFO - Starting grid search for hyperparameter tuning...
+[ 2025-04-13 15:27:44,752 ] 65 src.components.model_trainer - INFO - Grid search completed.
+[ 2025-04-13 15:27:44,925 ] 72 src.components.model_trainer - INFO - Model accuracy on test set: 0.9771
+[ 2025-04-13 15:27:44,963 ] 79 src.components.model_trainer - INFO - Trained model saved at artifacts\model.pkl

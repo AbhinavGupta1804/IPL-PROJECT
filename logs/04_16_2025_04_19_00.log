@@ -1,0 +1,10 @@
+[ 2025-04-16 04:19:01,989 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 04:19:01,989 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 04:19:04,509 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:19:04] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 04:19:26,517 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:19:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 04:19:26,977 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:19:26] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:19:26,977 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:19:26] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:19:27,038 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:19:27] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=gKjAAH0pMRpJXa8MrMd3 HTTP/1.1" 200 -
+[ 2025-04-16 04:20:02,383 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading
+[ 2025-04-16 04:20:02,403 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading
+[ 2025-04-16 04:20:02,403 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading

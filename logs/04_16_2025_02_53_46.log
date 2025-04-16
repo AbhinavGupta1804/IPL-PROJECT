@@ -1,0 +1,26 @@
+[ 2025-04-16 02:53:47,232 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 02:53:47,233 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 02:53:47,269 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 02:53:47,270 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 02:54:44,793 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:54:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 02:54:45,136 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:54:45] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 02:54:45,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:54:45] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 02:54:45,146 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:54:45] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=Cb8mD8BhfqB2zQWugGgz HTTP/1.1" 200 -
+[ 2025-04-16 02:56:46,962 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:56:46] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 02:56:46,973 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:56:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 02:56:46,973 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:56:46] "[33mGET /static/images/ipl-logo.png HTTP/1.1[0m" 404 -
+[ 2025-04-16 02:56:46,973 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:56:46] "GET /static/script.js HTTP/1.1" 200 -
+[ 2025-04-16 02:57:18,507 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:57:18] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 02:57:18,541 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:57:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 02:57:18,542 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:57:18] "[33mGET /static/images/ipl-logo.png HTTP/1.1[0m" 404 -
+[ 2025-04-16 02:57:18,545 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 02:57:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 03:00:37,856 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:00:37] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 03:00:37,875 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:00:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 03:00:37,882 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:00:37] "[33mGET /static/images/ipl-logo.png HTTP/1.1[0m" 404 -
+[ 2025-04-16 03:00:37,882 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:00:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 03:15:14,067 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:15:14] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 03:15:14,086 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:15:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 03:15:14,090 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:15:14] "[33mGET /static/images/ipl-logo.png HTTP/1.1[0m" 404 -
+[ 2025-04-16 03:15:14,093 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 03:15:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 03:29:54,951 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading
+[ 2025-04-16 03:29:54,953 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading

@@ -1,0 +1,14 @@
+[ 2025-04-16 05:18:22,782 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 05:18:22,782 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 05:18:25,979 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:18:25] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 05:18:26,192 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:18:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 05:18:26,194 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:18:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 05:18:51,767 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:18:51] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 05:18:51,788 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:18:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 05:18:51,790 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:18:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 05:19:29,654 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:19:29] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 05:19:29,676 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:19:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 05:19:29,676 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 05:19:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 05:20:07,320 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 05:20:07,320 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 05:20:07,321 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading

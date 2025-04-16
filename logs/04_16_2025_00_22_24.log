@@ -1,0 +1,14 @@
+[ 2025-04-16 00:22:25,337 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 00:22:25,351 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 00:22:25,471 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:22:25] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 00:22:25,544 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:22:25] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 00:23:05,100 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:05] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 00:23:05,118 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:05] "GET /static/style.css HTTP/1.1" 200 -
+[ 2025-04-16 00:23:05,229 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:05] "GET /static/script.js HTTP/1.1" 200 -
+[ 2025-04-16 00:23:55,146 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:55] "[33mGET /static/bat-hit.mp3 HTTP/1.1[0m" 404 -
+[ 2025-04-16 00:23:55,584 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 00:23:55,614 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 00:23:55,615 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 00:23:55,647 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 00:23:55] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=4WW0t1yPhVLegjNL2vry HTTP/1.1" 200 -
+[ 2025-04-16 00:27:07,546 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading
+[ 2025-04-16 00:27:07,550 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\app.py', reloading

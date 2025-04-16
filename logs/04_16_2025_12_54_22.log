@@ -1,0 +1,12 @@
+[ 2025-04-16 12:54:24,157 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 12:54:24,159 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 12:54:24,480 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:54:24] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 12:54:24,504 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:54:24] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 12:54:24,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:54:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:54:24,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:54:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:55:05,793 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\flask\\app.py', reloading
+[ 2025-04-16 12:55:05,812 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:55:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-04-16 12:55:05,833 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:55:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:55:05,834 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:55:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:55:05,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:55:05] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=Q4yWU0x4aw1Mn16jI1Q0 HTTP/1.1" 200 -
+[ 2025-04-16 12:55:05,878 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:55:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

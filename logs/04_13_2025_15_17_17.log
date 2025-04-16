@@ -1,0 +1,10 @@
+[ 2025-04-13 15:17:18,491 ] 28 __main__ - INFO - Entered the data ingestion method or component
+[ 2025-04-13 15:17:18,773 ] 32 __main__ - INFO - Read the dataset as dataframe
+[ 2025-04-13 15:17:19,786 ] 41 __main__ - INFO - Data ingestion completed successfully.
+[ 2025-04-13 15:17:19,793 ] 26 src.components.data_transformation - INFO - Reading input CSV files
+[ 2025-04-13 15:17:20,088 ] 30 src.components.data_transformation - INFO - Starting data transformation process
+[ 2025-04-13 15:17:21,616 ] 100 src.components.data_transformation - INFO - Data transformation completed successfully
+[ 2025-04-13 15:17:21,640 ] 101 src.components.data_transformation - INFO - X_train shape: (83839, 79), X_test shape: (20960, 79)
+[ 2025-04-13 15:17:21,647 ] 29 src.components.model_trainer - INFO - Starting model training process...
+[ 2025-04-13 15:17:21,647 ] 49 src.components.model_trainer - INFO - Voting classifier created.
+[ 2025-04-13 15:17:26,558 ] 84 src.components.model_trainer - ERROR - Exception occurred during model training.

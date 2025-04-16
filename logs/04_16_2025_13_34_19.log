@@ -1,0 +1,16 @@
+[ 2025-04-16 13:34:21,203 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:34:21,207 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 13:34:21,232 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:34:21,236 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 13:34:21,239 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:34:21,247 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 13:34:21,251 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:34:21,253 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 14:15:23,511 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:15:23] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 14:15:23,532 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:15:23] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 14:15:23,861 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:15:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:15:23,861 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:15:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:21:26,407 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\pyparsing\\core.py', reloading
+[ 2025-04-16 14:21:26,407 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\pyparsing\\core.py', reloading
+[ 2025-04-16 14:21:26,409 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\pyparsing\\core.py', reloading
+[ 2025-04-16 14:21:26,409 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\pyparsing\\core.py', reloading

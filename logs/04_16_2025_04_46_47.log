@@ -1,0 +1,13 @@
+[ 2025-04-16 04:46:48,929 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 04:46:48,931 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 04:46:52,435 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:46:52] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 04:46:52,442 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:46:52] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 04:46:52,642 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:46:52] "GET /static/script.js HTTP/1.1" 200 -
+[ 2025-04-16 04:46:52,642 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:46:52] "GET /static/style.css HTTP/1.1" 200 -
+[ 2025-04-16 04:47:35,696 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:47:35] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 04:47:35,720 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:47:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:47:35,723 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:47:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:47:35,726 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:47:35] "GET /static/toss_decision_outcome_pie_chart.png HTTP/1.1" 200 -
+[ 2025-04-16 04:48:27,066 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:48:27] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 04:48:27,078 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:48:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 04:48:27,078 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 04:48:27] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -

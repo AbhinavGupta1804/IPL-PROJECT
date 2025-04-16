@@ -1,0 +1,31 @@
+[ 2025-04-16 14:52:06,585 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 14:52:06,586 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 14:52:06,700 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 14:52:06,700 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 14:52:06,954 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 14:52:06,954 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 14:52:07,013 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 14:52:07,015 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 14:52:07,169 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 14:52:07,169 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 14:52:08,417 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:08] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 14:52:08,437 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:08] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 14:52:08,639 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:08] "GET /static/style.css HTTP/1.1" 200 -
+[ 2025-04-16 14:52:08,641 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:52:51,205 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:51] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 14:52:51,233 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:52:51,237 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:52:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:53:20,439 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:53:20] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 14:53:20,457 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:53:20] "GET /static/style.css HTTP/1.1" 200 -
+[ 2025-04-16 14:53:20,463 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:53:20] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 14:53:20,463 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:53:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:54:07,299 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:07] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 14:54:07,312 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:07] "GET /static/style.css HTTP/1.1" 200 -
+[ 2025-04-16 14:54:07,328 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:07] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 14:54:07,328 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:54:36,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:36] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 14:54:36,968 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 14:54:36,970 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 14:54:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 15:07:16,808 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:07:16] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 15:07:16,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:07:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 15:07:16,826 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:07:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -

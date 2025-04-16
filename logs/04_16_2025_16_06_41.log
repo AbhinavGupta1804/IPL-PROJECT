@@ -1,0 +1,9 @@
+[ 2025-04-16 16:06:42,973 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 16:06:42,978 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 16:06:44,015 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:06:44] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 16:06:44,097 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:06:44] "[33mGET /api/placeholder/300/200 HTTP/1.1[0m" 404 -
+[ 2025-04-16 16:06:44,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:06:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 16:06:44,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:06:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 16:07:11,825 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:07:11] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 16:07:11,853 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:07:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 16:07:11,856 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:07:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -

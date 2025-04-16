@@ -1,0 +1,7 @@
+[ 2025-04-13 15:08:14,918 ] 28 __main__ - INFO - Entered the data ingestion method or component
+[ 2025-04-13 15:08:15,228 ] 32 __main__ - INFO - Read the dataset as dataframe
+[ 2025-04-13 15:08:15,938 ] 41 __main__ - INFO - Data ingestion completed successfully.
+[ 2025-04-13 15:08:15,938 ] 26 src.components.data_transformation - INFO - Reading input CSV files
+[ 2025-04-13 15:08:16,266 ] 30 src.components.data_transformation - INFO - Starting data transformation process
+[ 2025-04-13 15:08:17,604 ] 100 src.components.data_transformation - INFO - Data transformation completed successfully
+[ 2025-04-13 15:08:17,604 ] 101 src.components.data_transformation - INFO - X_train shape: (83839, 79), X_test shape: (20960, 79)

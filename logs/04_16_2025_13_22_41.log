@@ -1,0 +1,19 @@
+[ 2025-04-16 13:22:42,554 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:22:42,555 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 13:22:42,555 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 13:22:42,555 ] 97 werkzeug - INFO -  * Debugger PIN: 112-539-243
+[ 2025-04-16 13:22:43,133 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:22:43] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 13:22:43,382 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:22:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 13:22:43,389 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:22:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 13:23:49,258 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:23:49] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 13:23:49,286 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:23:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 13:23:49,286 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:23:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 13:24:38,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:24:38] "POST /predict HTTP/1.1" 200 -
+[ 2025-04-16 13:24:38,185 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:24:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 13:24:38,187 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 13:24:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 13:25:13,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 13:25:13,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 13:25:13,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 13:25:13,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 13:25:13,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading
+[ 2025-04-16 13:25:13,082 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\abhi1\\Desktop\\ipl\\src\\analytics\\match_insights.py', reloading

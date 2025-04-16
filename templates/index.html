@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Win Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-baseball-ball fa-bounce"></i>
+                <span>IPL Win Predictor</span>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Form Section -->
+            <section class="form-section">
+                <h2 class="section-title">
+                    <i class="fas fa-sliders"></i>
+                    Match Parameters
+                </h2>
+                <form id="prediction-form" action="/predict" method="POST">
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-user-group"></i>
+                            Batting Team
+                        </label>
+                        <select class="form-control" name="batting_team" required>
+                            <option value="" disabled selected>Select Batting Team</option>
+                            {% for team in teams %}
+                            <option value="{{ team }}" {% if batting_team == team %}selected{% endif %}>{{ team }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-bowling-ball"></i>
+                            Bowling Team
+                        </label>
+                        <select class="form-control" name="bowling_team" required>
+                            <option value="" disabled selected>Select Bowling Team</option>
+                            {% for team in teams %}
+                            <option value="{{ team }}" {% if bowling_team == team %}selected{% endif %}>{{ team }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-map-marker-alt"></i>
+                            City
+                        </label>
+                        <select class="form-control" name="city" required>
+                            <option value="" disabled selected>Select City</option>
+                            {% for city_option in cities %}
+                            <option value="{{ city_option }}" {% if city == city_option %}selected{% endif %}>{{ city_option }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-chart-line"></i>
+                            Current Score
+                        </label>
+                        <input type="number" class="form-control" name="score" min="0" value="{{ score|default(0) }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-clock"></i>
+                            Overs Completed
+                        </label>
+                        <input type="number" class="form-control" name="overs" min="0" max="20" step="0.1" value="{{ overs|default(0) }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-times-circle"></i>
+                            Wickets Lost
+                        </label>
+                        <input type="number" class="form-control" name="wickets" min="0" max="10" value="{{ wickets|default(0) }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-bullseye"></i>
+                            Target Score
+                        </label>
+                        <input type="number" class="form-control" name="target" min="1" value="{{ target|default(0) }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-coins"></i>
+                            Toss Winner
+                        </label>
+                        <select class="form-control" name="toss_winner" required>
+                            <option value="" disabled selected>Select Toss Winner</option>
+                            {% for team in teams %}
+                            <option value="{{ team }}" {% if toss_winner == team %}selected{% endif %}>{{ team }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-trophy"></i>
+                            Toss Decision
+                        </label>
+                        <select class="form-control" name="toss_decision" required>
+                            <option value="" disabled selected>Select Decision</option>
+                            <option value="bat" {% if toss_decision == 'bat' %}selected{% endif %}>Bat</option>
+                            <option value="field" {% if toss_decision == 'field' %}selected{% endif %}>Field</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="predict-btn">
+                        <i class="fas fa-bolt"></i>
+                        Predict Match Outcome
+                    </button>
+                </form>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <h2 class="section-title">
+                    <i class="fas fa-chart-pie"></i>
+                    Prediction Results
+                </h2>
+
+                <div class="loading-overlay" id="loading-overlay">
+                    <div class="spinner"></div>
+                    <div class="cricket-animation">
+                        <div class="bat"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <p class="loading-text">Analyzing match data...</p>
+                </div>
+
+                <div class="result-container" id="result-container">
+                    {% if win is defined %}
+                    <div class="prediction-rings">
+                        <div class="team-ring win-ring">
+                            <div class="team-name">{{ batting_team }}</div>
+                            <div class="ring-container">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="ring-bg" cx="50" cy="50" r="40"/>
+                                    <circle class="ring-progress" cx="50" cy="50" r="40" stroke-dasharray="{{ win * 2.51 }}, 251"/>
+                                    <text x="50" y="50" class="ring-text">{{ win }}%</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="team-ring lose-ring">
+                            <div class="team-name">{{ bowling_team }}</div>
+                            <div class="ring-container">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="ring-bg" cx="50" cy="50" r="40"/>
+                                    <circle class="ring-progress" cx="50" cy="50" r="40" stroke-dasharray="{{ lose * 2.51 }}, 251"/>
+                                    <text x="50" y="50" class="ring-text">{{ lose }}%</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="placeholder-result">
+                        <img src="/api/placeholder/300/200" alt="IPL Analysis" class="placeholder-image">
+                        <p>Enter match details and click "Predict" to see win probability</p>
+                    </div>
+                    {% endif %}
+
+                    <div class="chart-container">
+                        {% if graph_url %}
+                        <img src="{{ graph_url }}" alt="Toss Decision Outcome" class="chart-image">
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Insights Section -->
+        <section class="insights-section">
+            <h2 class="section-title">
+                <i class="fas fa-lightbulb"></i>
+                Match Insights & Recommendations
+            </h2>
+
+            {% if win is defined %}
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h3 class="insight-title">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Venue Performance
+                    </h3>
+                    <p class="insight-value">{{ venue_stat if venue_stat else 'No data' }}</p>
+                    <p class="insight-description">Win rate for {{ batting_team }} at {{ city }}</p>
+                </div>
+
+                <div class="insight-card">
+                    <h3 class="insight-title">
+                        <i class="fas fa-exchange-alt"></i>
+                        Toss Impact
+                    </h3>
+                    <p class="insight-value">{{ toss_stat if toss_stat else 'No data' }}</p>
+                    <p class="insight-description">Teams choosing to {{ toss_decision }} win {{ toss_stat if toss_stat else 'N/A' }}% of the time</p>
+                </div>
+
+                <div class="insight-card">
+                    <h3 class="insight-title">
+                        <i class="fas fa-chart-line"></i>
+                        Average Score
+                    </h3>
+                    <p class="insight-value">{{ avg_score_stat if avg_score_stat else 'No data' }}</p>
+                    <p class="insight-description">Average first innings score at {{ city }}</p>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <h3 class="insight-title">
+                    <i class="fas fa-chess"></i>
+                    Strategic Recommendations
+                </h3>
+                <div class="recommendations-list">
+                    {% if suggestions %}
+                        {% for suggestion in suggestions %}
+                        <div class="recommendation-item">
+                            <i class="fas fa-angle-right"></i>
+                            <p>{{ suggestion }}</p>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                        <div class="recommendation-item">
+                            <i class="fas fa-angle-right"></i>
+                            <p>Not enough data to provide strategic recommendations.</p>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% else %}
+            <div class="placeholder-insights">
+                <p>Match insights and recommendations will appear here after prediction</p>
+            </div>
+            {% endif %}
+        </section>
+
+        <!-- Footer with developer information -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/AbhinavGupta1804/projectipl" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhinav-gupta-369159282" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>© 2025 Developed by Abhinav Gupta</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
