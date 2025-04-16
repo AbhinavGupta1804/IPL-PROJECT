@@ -91,7 +91,8 @@ Feel free to contribute to this project by opening issues and submitting pull re
 🔗 LinkedIn: [Abhinav Gupta](https://www.linkedin.com/in/abhinav-gupta-369159282)
 
 ## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/e10627a9-61af-4486-835a-3111079dd7e3)
+![image](https://github.com/user-attachments/assets/4fa1b3ea-51d0-40ef-a82c-f800528b231f)
+
 
 
 
