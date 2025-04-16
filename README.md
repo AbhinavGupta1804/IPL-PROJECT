@@ -64,7 +64,7 @@ This project goes beyond just "win or lose". It offers **strategic intelligence*
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/IPL-Win-Predictor.git
+git clone https://github.com/AbhinavGupta1804/IPL-PROJECT.git
 cd IPL-Win-Predictor
 
 # 2. Create virtual environment (optional but recommended)
